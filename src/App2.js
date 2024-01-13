@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./index.css";
 
+
 // 1st, last, ph ==> mandatory
 // 1st name != last name, midd
 //local storage
