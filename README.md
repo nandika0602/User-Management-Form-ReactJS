@@ -4,6 +4,7 @@
 
 => This project is a user management form that allows users to add, update, and delete user details. 
 => The form includes fields such as firstname, middlename, lastname, gender, number, marital status, immediate joiner, mode of contact, and supports various field types including text, number, radio, checkbox, and dropdown. 
+=> All added user will be displayed in table.
 => The application provides detailed error messages for common scenarios and uses Tailwind CSS for styling.
 
 ## Features
