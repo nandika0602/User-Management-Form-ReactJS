@@ -1,3 +1,32 @@
+# User Management Form
+
+## Overview
+
+=> This project is a user management form that allows users to add, update, and delete user details. 
+=> The form includes fields such as firstname, middlename, lastname, gender, number, marital status, immediate joiner, mode of contact, and supports various field types including text, number, radio, checkbox, and dropdown. 
+=> The application provides detailed error messages for common scenarios and uses Tailwind CSS for styling.
+
+## Features
+
+- **Add a User:** Users can add new user details with various fields and types.
+- **Update User:** Modify existing user details with error handling for specific scenarios.
+- **Delete User:** Remove user details with confirmation and prevention of deletion in edit mode.
+- **Search User:** Search for a user by firstname with validation for existence.
+- **Delete All Users:** Clear all user details from the table.
+- **Table Display:** Shows all added user details in a table with edit and delete buttons in each row.
+- **Scroll to Top:** Scrolls to the top when the user clicks the edit button.
+- **Local Storage:** Stores all added user details in local storage.
+- **Error Handling:** Displays specific error messages for the following scenarios:
+      Missing fields: Firstname, lastname, and phone number must be provided.
+      Duplicate names: Firstname and lastname must not be the same.
+      Invalid number: Ensure a valid phone number is entered.
+      Update without changes: Prevent updating without modifying any details.
+      Existing number: Avoid adding a user with an existing phone number.
+      Search non-existent user: Provide feedback if the user being searched is not present.
+      Delete in edit mode: Warn users against deleting a user in edit mode.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
