@@ -17,15 +17,23 @@
 - **Scroll to Top:** Scrolls to the top when the user clicks the edit button.
 - **Local Storage:** Stores all added user details in local storage.
 - **Error Handling:** Displays specific error messages for the following scenarios:
-      Missing fields: Firstname, lastname, and phone number must be provided.
-      Duplicate names: Firstname and lastname must not be the same.
-      Invalid number: Ensure a valid phone number is entered.
-      Update without changes: Prevent updating without modifying any details.
-      Existing number: Avoid adding a user with an existing phone number.
-      Search non-existent user: Provide feedback if the user being searched is not present.
-      Delete in edit mode: Warn users against deleting a user in edit mode.
-
-
+      - Missing fields: Firstname, lastname, and phone number must be provided.
+      - Duplicate names: Firstname and lastname must not be the same.
+      - Invalid number: Ensure a valid phone number is entered.
+      - Update without changes: Prevent updating without modifying any details.
+      - Existing number: Avoid adding a user with an existing phone number.
+      - Search non-existent user: Provide feedback if the user being searched is not present.
+      - Delete in edit mode: Warn users against deleting a user in edit mode.
+  
+**Form Fields**
+Firstname (Text)
+Middlename (Text)
+Lastname (Text)
+Gender (Radio)
+Number (Number)
+Marital Status (Dropdown)
+Immediate Joiner (Radio)
+Mode of Contact (Checkbox)
 
 # Getting Started with Create React App
 
